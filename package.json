@@ -1,0 +1,25 @@
+{
+  "name": "sbly-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server-dev": "nodemon server.js",
+    "server-prod": "node server.js --env=prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acl": "^0.4.11",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-rate-limit": "1.0.0",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.18.9"
+  }
+}

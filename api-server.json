@@ -1,0 +1,8 @@
+{
+  "exec_mode": "fork_mode",
+  "script": "server.js",
+  "name": "sbly-interview-server",
+  "args": "--env=prod",
+  "error_file": "/var/logs/sbly-interview-server.err.log",
+  "out_file": "/var/logs/sbly-interview-server.out.log"
+}
